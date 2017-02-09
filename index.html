@@ -2,10 +2,12 @@
   <head>
     <title>Prosto</title>
     <style>
+      body { background-color: #1d1f21; }
       #random {
         font-family: "Comic Sans MS";
         text-align: center;
-        font-size: 24px;
+        font-size: 48px;
+        color: #fff;
       }
     </style>
   </head>
@@ -19,7 +21,7 @@
     <script>
       function getRandomIntInclusive(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
     
-      var lines = ["line1", "line2"]
+      var lines = ["I eat shit.", "I like potatoes.", "I want to fuck my mom.", "I love rubbing my tits.", "Daniel is pidr.", "Macsim is hui."]
       $("#random").text(lines[getRandomIntInclusive(0,lines.length-1)]);
     </script>
   </body>
