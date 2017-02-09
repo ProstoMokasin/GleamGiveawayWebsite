@@ -1,33 +1,26 @@
 <html>
-<head>
-
-<title> </title>
-</head>
-<body>
-  <p id="random"></p>
-  
-  <a class="e-widget no-button" href="https://gleam.io/24ZRI/win-an-sticker-from-atlanta" rel="nofollow">Win an Sticker from Atlanta</a>
-  <script type="text/javascript" src="https://js.gleam.io/e.js" async="true"></script>
-  
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- This is amazing -->
-  <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:600px"
-     data-ad-client="ca-pub-1523623213648801"
-     data-ad-slot="6068460971"></ins>
-   <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script>
-    function getRandomIntInclusive(min, max) {
-      min = Math.ceil(min);
-      max = Math.floor(max);
-      return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
+  <head>
+    <title>Prosto</title>
+    <style>
+      #random {
+        font-family: "Comic Sans MS";
+        text-align: center;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="random"></p>
     
-    var lines = ["line1", "line2"]
-    $("#random").text(lines[getRandomIntInclusive(0,lines.length-1)]);
-  </script>
-</body>
+    <a class="e-widget no-button" href="https://gleam.io/24ZRI/win-an-sticker-from-atlanta" rel="nofollow">Win an Sticker from Atlanta</a>
+    <script type="text/javascript" src="https://js.gleam.io/e.js" async="true"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      function getRandomIntInclusive(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+    
+      var lines = ["line1", "line2"]
+      $("#random").text(lines[getRandomIntInclusive(0,lines.length-1)]);
+    </script>
+  </body>
 </html>
